@@ -96,3 +96,18 @@
 
 
 
+// 4344 평균은 넘겠지
+// let arr = [100, 99, 98, 97, 96, 95, 94, 93, 91]
+// let n = arr.length
+// let sum = 0
+// for (let x of arr){
+//   sum +=x
+// }
+// let avg = sum/n
+// let count = 0
+// for (let y of arr) {
+//   y > avg ? count ++ : count = count
+// }
+// const per = count/n*100
+// console.log(avg)
+// console.log(per.toFixed(3) +'%')

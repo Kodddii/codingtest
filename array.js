@@ -111,3 +111,5 @@
 // const per = count/n*100
 // console.log(avg)
 // console.log(per.toFixed(3) +'%')
+
+

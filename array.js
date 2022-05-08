@@ -1,12 +1,12 @@
 // 10818 최대 최소
-// let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+let input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
-// let count = Number(input[0]);
-// let numbers = input[1].split(' ').map(x => Number(x));
+let count = Number(input[0]);
+let numbers = input[1].split(' ').map(x => Number(x));
                                       
-// numbers.sort((a,b) => a-b);
+numbers.sort((a,b) => a-b);
 
-// console.log(`${numbers[0]} ${numbers[count - 1 ]}`)
+console.log(`${numbers[0]} ${numbers[count - 1 ]}`)
 
 
 

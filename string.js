@@ -20,6 +20,19 @@
 // }
 // console.log(array.join(" "))
 
+// 문자열반복
+// let fs = require('fs');
+// let input = fs.readFileSync('/dev/stdin').toString().split('\n');
+// let count = Number(input[0])
+// for (let i =1 ; i<=count; i++ ){
+//     const num = Number(input[i].split(" ")[0])
+//     const str = input[i].split(" ")[1]
+//     const strSplit = str.split('')
+//     const strSplitRepeat = strSplit.map(el => el.repeat(num)).join('')
+//     console.log(strSplitRepeat)
+// }
+
+
 // 단어공부
 // const readline = require("readline");
 // const rl = readline.createInterface({
@@ -82,6 +95,32 @@
 // }else{
 //     console.log(num2)
 // }
+
+// 다이얼
+// let fs = require("fs");
+// let input = fs.readFileSync("/dev/stdin").toString().trim();
+// let phone = {
+// 	2: "ABC",
+// 	3: "DEF",
+// 	4: "GHI",
+// 	5: "JKL",
+// 	6: "MNO",
+// 	7: "PQRS",
+// 	8: "TUV",
+// 	9: "WXYZ",
+// };
+// let result = 0;
+
+// for (let i = 0; i < input.length; i++) {
+// 	for (let j = 2; j <= 9; j++) {
+// 		if (phone[j].includes(input[i])) {
+// 			result += j + 1;
+// 			break;
+// 		}
+// 	}
+// }
+
+// console.log(result);
 
 // 크로아티마
 // const readline = require("readline");
